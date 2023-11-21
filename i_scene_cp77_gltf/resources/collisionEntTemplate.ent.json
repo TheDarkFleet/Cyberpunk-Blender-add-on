@@ -1,0 +1,621 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.11.2-nightly.2023-11-20\u002Bc82c11606aaff46b7e4e446d24c4a7531d9779e7",
+    "WKitJsonVersion": "0.0.8",
+    "GameVersion": 2020,
+    "ExportedDateTime": "2023-11-21T09:19:49.1437698Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\danma\\Documents\\streaming\\source\\archive\\entEntityTemplate1.ent"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "entEntityTemplate",
+      "appearances": [],
+      "backendDataOverrides": [],
+      "bindingOverrides": [],
+      "compiledData": {
+        "BufferId": "0",
+        "Flags": 0,
+        "Type": "WolvenKit.RED4.Archive.Buffer.RedPackage, WolvenKit.RED4, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null",
+        "Data": {
+          "Version": 4,
+          "Sections": 6,
+          "CruidIndex": -1,
+          "CruidDict": {
+            "0": "1793197062844684481",
+            "1": "1917194284690600415"
+          },
+          "Chunks": [
+            {
+              "$type": "entColliderComponent",
+              "colliders": [
+                {
+                  "HandleId": "0",
+                  "Data": {
+                    "$type": "physicsColliderBox",
+                    "filterData": {
+                      "HandleId": "1",
+                      "Data": {
+                        "$type": "physicsFilterData",
+                        "customFilterData": {
+                          "HandleId": "2",
+                          "Data": {
+                            "$type": "physicsCustomFilterData",
+                            "collideWith": [
+                              {
+                                "$type": "CName",
+                                "$storage": "string",
+                                "$value": "None"
+                              }
+                            ],
+                            "collisionType": [
+                              {
+                                "$type": "CName",
+                                "$storage": "string",
+                                "$value": "None"
+                              }
+                            ],
+                            "queryDetect": [
+                              {
+                                "$type": "CName",
+                                "$storage": "string",
+                                "$value": "None"
+                              }
+                            ]
+                          }
+                        },
+                        "preset": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "World Static"
+                        },
+                        "queryFilter": {
+                          "$type": "physicsQueryFilter",
+                          "mask1": "1",
+                          "mask2": "1"
+                        },
+                        "simulationFilter": {
+                          "$type": "physicsSimulationFilter",
+                          "mask1": "1",
+                          "mask2": "1"
+                        }
+                      }
+                    },
+                    "halfExtents": {
+                      "$type": "Vector3",
+                      "X": 2,
+                      "Y": 2,
+                      "Z": 1
+                    },
+                    "isImported": 1,
+                    "isObstacle": 1,
+                    "isQueryShapeOnly": 1,
+                    "localToBody": {
+                      "$type": "Transform",
+                      "orientation": {
+                        "$type": "Quaternion",
+                        "i": 0,
+                        "j": 0,
+                        "k": 0,
+                        "r": 1
+                      },
+                      "position": {
+                        "$type": "Vector4",
+                        "W": 1,
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0
+                      }
+                    },
+                    "material": {
+                      "$type": "CName",
+                      "$storage": "string",
+                      "$value": "concrete.physmat"
+                    },
+                    "materialApperanceOverrides": [],
+                    "tag": {
+                      "$type": "CName",
+                      "$storage": "string",
+                      "$value": "None"
+                    },
+                    "volumeModifier": 2
+                  }
+                },
+                {
+                  "HandleId": "3",
+                  "Data": {
+                    "$type": "physicsColliderCapsule",
+                    "filterData": {
+                      "HandleId": "4",
+                      "Data": {
+                        "$type": "physicsFilterData",
+                        "customFilterData": {
+                          "HandleId": "5",
+                          "Data": {
+                            "$type": "physicsCustomFilterData",
+                            "collideWith": [
+                              {
+                                "$type": "CName",
+                                "$storage": "string",
+                                "$value": "1"
+                              }
+                            ],
+                            "collisionType": [
+                              {
+                                "$type": "CName",
+                                "$storage": "string",
+                                "$value": "None1"
+                              }
+                            ],
+                            "queryDetect": [
+                              {
+                                "$type": "CName",
+                                "$storage": "string",
+                                "$value": "1"
+                              }
+                            ]
+                          }
+                        },
+                        "preset": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "None"
+                        },
+                        "queryFilter": {
+                          "$type": "physicsQueryFilter",
+                          "mask1": "2",
+                          "mask2": "1"
+                        },
+                        "simulationFilter": {
+                          "$type": "physicsSimulationFilter",
+                          "mask1": "1",
+                          "mask2": "1"
+                        }
+                      }
+                    },
+                    "height": 4,
+                    "isImported": 1,
+                    "isQueryShapeOnly": 1,
+                    "localToBody": {
+                      "$type": "Transform",
+                      "orientation": {
+                        "$type": "Quaternion",
+                        "i": 1,
+                        "j": 4,
+                        "k": 1,
+                        "r": 0
+                      },
+                      "position": {
+                        "$type": "Vector4",
+                        "W": 2,
+                        "X": 1,
+                        "Y": 1,
+                        "Z": 2
+                      }
+                    },
+                    "material": {
+                      "$type": "CName",
+                      "$storage": "string",
+                      "$value": "concrete.physmat"
+                    },
+                    "materialApperanceOverrides": [],
+                    "radius": 1,
+                    "tag": {
+                      "$type": "CName",
+                      "$storage": "string",
+                      "$value": "None"
+                    },
+                    "volumeModifier": 1
+                  }
+                },
+                {
+                  "HandleId": "6",
+                  "Data": {
+                    "$type": "physicsColliderConvex",
+                    "compiledGeometryBuffer": null,
+                    "filterData": null,
+                    "indexBuffer": [],
+                    "isImported": 0,
+                    "isQueryShapeOnly": 0,
+                    "localToBody": {
+                      "$type": "Transform",
+                      "orientation": {
+                        "$type": "Quaternion",
+                        "i": 0,
+                        "j": 0,
+                        "k": 0,
+                        "r": 1
+                      },
+                      "position": {
+                        "$type": "Vector4",
+                        "W": 0,
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0
+                      }
+                    },
+                    "material": {
+                      "$type": "CName",
+                      "$storage": "string",
+                      "$value": "None"
+                    },
+                    "materialApperanceOverrides": [],
+                    "polygonVertices": [],
+                    "tag": {
+                      "$type": "CName",
+                      "$storage": "string",
+                      "$value": "None"
+                    },
+                    "vertices": [
+                      {
+                        "$type": "Vector3",
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0
+                      },
+                      {
+                        "$type": "Vector3",
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0
+                      },
+                      {
+                        "$type": "Vector3",
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0
+                      }
+                    ],
+                    "volumeModifier": 1
+                  }
+                },
+                {
+                  "HandleId": "7",
+                  "Data": {
+                    "$type": "physicsColliderSphere",
+                    "filterData": null,
+                    "isImported": 0,
+                    "isQueryShapeOnly": 0,
+                    "localToBody": {
+                      "$type": "Transform",
+                      "orientation": {
+                        "$type": "Quaternion",
+                        "i": 0,
+                        "j": 0,
+                        "k": 0,
+                        "r": 1
+                      },
+                      "position": {
+                        "$type": "Vector4",
+                        "W": 0,
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0
+                      }
+                    },
+                    "material": {
+                      "$type": "CName",
+                      "$storage": "string",
+                      "$value": "None"
+                    },
+                    "materialApperanceOverrides": [],
+                    "radius": 1,
+                    "tag": {
+                      "$type": "CName",
+                      "$storage": "string",
+                      "$value": "None"
+                    },
+                    "volumeModifier": 1
+                  }
+                }
+              ],
+              "comOffset": {
+                "$type": "Transform",
+                "orientation": {
+                  "$type": "Quaternion",
+                  "i": 0,
+                  "j": 0,
+                  "k": 0,
+                  "r": 1
+                },
+                "position": {
+                  "$type": "Vector4",
+                  "W": 0,
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 0
+                }
+              },
+              "dynamicTrafficSetting": {
+                "$type": "TrafficGenDynamicTrafficSetting",
+                "impact": "Ignored"
+              },
+              "filterData": null,
+              "id": "0",
+              "inertia": {
+                "$type": "Vector3",
+                "X": 1,
+                "Y": 1,
+                "Z": 1
+              },
+              "isEnabled": 1,
+              "isReplicable": 0,
+              "localTransform": {
+                "$type": "WorldTransform",
+                "Orientation": {
+                  "$type": "Quaternion",
+                  "i": 0,
+                  "j": 0,
+                  "k": 0,
+                  "r": 1
+                },
+                "Position": {
+                  "$type": "WorldPosition",
+                  "x": {
+                    "$type": "FixedPoint",
+                    "Bits": 0
+                  },
+                  "y": {
+                    "$type": "FixedPoint",
+                    "Bits": 0
+                  },
+                  "z": {
+                    "$type": "FixedPoint",
+                    "Bits": 0
+                  }
+                }
+              },
+              "mass": 0,
+              "massOverride": -1,
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "Component"
+              },
+              "parentTransform": null,
+              "simulationType": "Kinematic",
+              "startInactive": 0,
+              "useCCD": 0,
+              "volume": 0
+            },
+            {
+              "$type": "entSimpleColliderComponent",
+              "colliders": [
+                {
+                  "HandleId": "8",
+                  "Data": {
+                    "$type": "physicsColliderBox",
+                    "filterData": null,
+                    "halfExtents": {
+                      "$type": "Vector3",
+                      "X": 1,
+                      "Y": 1,
+                      "Z": 1
+                    },
+                    "isImported": 0,
+                    "isObstacle": 0,
+                    "isQueryShapeOnly": 0,
+                    "localToBody": {
+                      "$type": "Transform",
+                      "orientation": {
+                        "$type": "Quaternion",
+                        "i": 0,
+                        "j": 0,
+                        "k": 0,
+                        "r": 1
+                      },
+                      "position": {
+                        "$type": "Vector4",
+                        "W": 0,
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0
+                      }
+                    },
+                    "material": {
+                      "$type": "CName",
+                      "$storage": "string",
+                      "$value": "None"
+                    },
+                    "materialApperanceOverrides": [],
+                    "tag": {
+                      "$type": "CName",
+                      "$storage": "string",
+                      "$value": "None"
+                    },
+                    "volumeModifier": 1
+                  }
+                }
+              ],
+              "compiledBuffer": null,
+              "filter": null,
+              "id": "0",
+              "isEnabled": 1,
+              "isReplicable": 0,
+              "localTransform": {
+                "$type": "WorldTransform",
+                "Orientation": {
+                  "$type": "Quaternion",
+                  "i": 0,
+                  "j": 0,
+                  "k": 0,
+                  "r": 1
+                },
+                "Position": {
+                  "$type": "WorldPosition",
+                  "x": {
+                    "$type": "FixedPoint",
+                    "Bits": 0
+                  },
+                  "y": {
+                    "$type": "FixedPoint",
+                    "Bits": 0
+                  },
+                  "z": {
+                    "$type": "FixedPoint",
+                    "Bits": 0
+                  }
+                }
+              },
+              "name": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "Component"
+              },
+              "parentTransform": null
+            }
+          ]
+        }
+      },
+      "compiledEntityLODFlags": 0,
+      "componentResolveSettings": [],
+      "components": [
+        {
+          "$type": "entColliderComponent",
+          "colliders": [
+            {
+              "HandleRefId": "0"
+            },
+            {
+              "HandleRefId": "3"
+            },
+            {
+              "HandleRefId": "6"
+            },
+            {
+              "HandleRefId": "7"
+            }
+          ],
+          "comOffset": {
+            "$type": "Transform",
+            "orientation": {
+              "$type": "Quaternion",
+              "i": 0,
+              "j": 0,
+              "k": 0,
+              "r": 1
+            },
+            "position": {
+              "$type": "Vector4",
+              "W": 0,
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            }
+          },
+          "dynamicTrafficSetting": {
+            "$type": "TrafficGenDynamicTrafficSetting",
+            "impact": "Ignored"
+          },
+          "filterData": null,
+          "id": "0",
+          "inertia": {
+            "$type": "Vector3",
+            "X": 1,
+            "Y": 1,
+            "Z": 1
+          },
+          "isEnabled": 1,
+          "isReplicable": 0,
+          "localTransform": {
+            "$type": "WorldTransform",
+            "Orientation": {
+              "$type": "Quaternion",
+              "i": 0,
+              "j": 0,
+              "k": 0,
+              "r": 1
+            },
+            "Position": {
+              "$type": "WorldPosition",
+              "x": {
+                "$type": "FixedPoint",
+                "Bits": 0
+              },
+              "y": {
+                "$type": "FixedPoint",
+                "Bits": 0
+              },
+              "z": {
+                "$type": "FixedPoint",
+                "Bits": 0
+              }
+            }
+          },
+          "mass": 0,
+          "massOverride": -1,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "Component"
+          },
+          "parentTransform": null,
+          "simulationType": "Kinematic",
+          "startInactive": 0,
+          "useCCD": 0,
+          "volume": 0
+        },
+        {
+          "$type": "entSimpleColliderComponent",
+          "colliders": [
+            {
+              "HandleRefId": "8"
+            }
+          ],
+          "compiledBuffer": null,
+          "filter": null,
+          "id": "0",
+          "isEnabled": 1,
+          "isReplicable": 0,
+          "localTransform": {
+            "$type": "WorldTransform",
+            "Orientation": {
+              "$type": "Quaternion",
+              "i": 0,
+              "j": 0,
+              "k": 0,
+              "r": 1
+            },
+            "Position": {
+              "$type": "WorldPosition",
+              "x": {
+                "$type": "FixedPoint",
+                "Bits": 0
+              },
+              "y": {
+                "$type": "FixedPoint",
+                "Bits": 0
+              },
+              "z": {
+                "$type": "FixedPoint",
+                "Bits": 0
+              }
+            }
+          },
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "Component"
+          },
+          "parentTransform": null
+        }
+      ],
+      "cookingPlatform": "PLATFORM_None",
+      "defaultAppearance": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "default"
+      },
+      "entity": null,
+      "includeInstanceBuffer": null,
+      "includes": [],
+      "inplaceResources": [],
+      "localData": null,
+      "resolvedDependencies": [],
+      "visualTagsSchema": null
+    },
+    "EmbeddedFiles": []
+  }
+}

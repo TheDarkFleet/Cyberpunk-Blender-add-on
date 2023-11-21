@@ -1,0 +1,68 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.11.2-nightly.2023-11-20\u002Bc82c11606aaff46b7e4e446d24c4a7531d9779e7",
+    "WKitJsonVersion": "0.0.8",
+    "GameVersion": 2020,
+    "ExportedDateTime": "2023-11-21T09:20:29.8807203Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\danma\\Documents\\streaming\\source\\archive\\template.streamingblock"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "worldStreamingBlock",
+      "cookingPlatform": "PLATFORM_PC",
+      "descriptors": [
+        {
+          "$type": "worldStreamingSectorDescriptor",
+          "blockIndex": {
+            "$type": "worldStreamingBlockIndex",
+            "oup": "Base",
+            "rldGridCell": 0
+          },
+          "category": "Exterior",
+          "data": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "string",
+              "$value": "base"
+            },
+            "Flags": "Soft"
+          },
+          "level": 0,
+          "numNodeRanges": 1,
+          "questPrefabNodeRef": {
+            "$type": "NodeRef",
+            "$storage": "uint64",
+            "$value": "0"
+          },
+          "streamingBox": {
+            "$type": "Box",
+            "Max": {
+              "$type": "Vector4",
+              "W": 1,
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "Min": {
+              "$type": "Vector4",
+              "W": 1,
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            }
+          },
+          "variants": []
+        }
+      ],
+      "index": {
+        "$type": "worldStreamingBlockIndex",
+        "oup": "Base",
+        "rldGridCell": 0
+      }
+    },
+    "EmbeddedFiles": []
+  }
+}
